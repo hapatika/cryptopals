@@ -28,11 +28,11 @@ def bax2hex(c):
     for i in range(0,len(c),4):
         p=int(c[i:i+4], base=2)
         w+=l1[p]
-    print(w)
+    
     return w
 
 
 def xorhex(a,b):
     bax2hex(xor(h2b(a),h2b(b)))
 
-xorhex('1c0111001f010100061a024b53535009181c','686974207468652062756c6c277320657965')
+#print(xorhex('1c0111001f010100061a024b53535009181c','686974207468652062756c6c277320657965'))
