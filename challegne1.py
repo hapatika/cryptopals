@@ -36,4 +36,10 @@ def b_to_64(H):
     return H_64
 
 def hex_to_64(H):
+    b_to_64(h2b(H))
 
+def main():
+    print(hex_to_64(input()))
+
+if __name__=="__main__":
+    main()
