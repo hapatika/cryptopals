@@ -1,3 +1,5 @@
+import challegne1
+
 def xor(a,b):
     c=''
     for i in range(len(a)):
