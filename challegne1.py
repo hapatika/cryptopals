@@ -36,4 +36,4 @@ def b_to_64(H):
     return H_64
 
 def hex_to_64(H):
-    return b_to_64(h2b(H))
+
