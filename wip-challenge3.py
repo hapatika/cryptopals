@@ -1,3 +1,5 @@
+import challegne1
+
 def xor(a,b):
     c=''
     for i in range(len(a)):
@@ -27,7 +29,7 @@ def scoring(eng):
     # arr = [letters in english in descending order of frequency]
     # vec = [letters of decoded cipher in desc order of freq]
     # sum over all a : |vec.index(a) - arr.index(a)|/largest difference (this is so...not it lmao)
-    # 
+    # and then order by min(sum) over all 16 keys
     # if '+' or '/' or numeric values show up in xoring using any key k disregard k
     # 
     # average length of words and standard deviation (i.e. oh wait not all words are capitalised...sentences? terrible idea.)
